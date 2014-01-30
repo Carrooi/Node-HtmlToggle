@@ -1,0 +1,20 @@
+{
+	"packages": {
+		"test": {
+			"target": "./public/application.js",
+			"modules": [
+				"./tests/*"
+			],
+			"run": [
+				"/tests/Toggle"
+			],
+			"ignore": {
+				"packageFiles": true
+			}
+		}
+	},
+	"debugger": {
+		"statsFiles": false,
+		"minify": false
+	}
+}

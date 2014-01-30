@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Tests </title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="../node_modules/mocha/mocha.css">
+	</head>
+	<body>
+		<div id="mocha"></div>
+
+		<div style="color: white;">
+			<div id="testOne">
+				<a href="#" data-toggle>one</a>
+			</div>
+			<div id="testTwo">
+				<a href="#" data-toggle data-target="#testTwo .unknown">two</a>
+			</div>
+			<div id="testThree">
+				<a href="#" data-toggle data-target="#testThree div">three</a>
+				<div></div>
+			</div>
+			<div id="testFour">
+				<a href="#" data-toggle data-hide-toggler data-target="#testFour div">four</a>
+				<div></div>
+			</div>
+		</div>
+
+		<script src="../node_modules/mocha/mocha.js"></script>
+		<script src="../node_modules/chai/chai.js"></script>
+		<script>
+			mocha.ui('bdd');
+			mocha.reporter('html');
+			var expect = chai.expect;
+		</script>
+		<script src="../lib/Toggle.min.js"></script>
+		<script src="./libs/jquery.js"></script>
+		<script src="./public/application.js"></script>
+		<script>
+			if (window.mochaPhantomJS) { mochaPhantomJS.run(); }
+			else { mocha.run(); }
+		</script>
+	</body>
+</html>
