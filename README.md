@@ -12,15 +12,15 @@ Uses [jquery](https://github.com/jquery/jquery).
 
 ## Installation
 
-for commonJS environments (for example with [simq](https://github.com/sakren/node-simq)):
+install for commonJS environments (for example [simq](https://github.com/sakren/node-simq)):
 
 ```
 $ npm install html-toggle
 ```
 
-or standalone versions:
-* [development]()
-* [minified]()
+or download standalone version:
+* [development](https://raw.github.com/sakren/html-toggle/master/lib/Toggle.js)
+* [minified](https://raw.github.com/sakren/html-toggle/master/lib/Toggle.min.js)
 
 ## Usage
 
@@ -42,11 +42,15 @@ or standalone versions:
 
 ## Hide link after first toggle
 
+`data-hide-toggler`
+
 ```
 <a href="#" data-toggle data-hide-toggler data-toggle=".languages">Show all languages</a>
 ```
 
 ## Specifying fire event
+
+`data-event`
 
 ```
 <a href="#" data-toggle data-event="mouseover" data-toggle=".languages">Show all languages</a>
