@@ -1,3 +1,9 @@
+[![NPM version](https://badge.fury.io/js/html-toggle.png)](http://badge.fury.io/js/html-toggle)
+[![Dependency Status](https://gemnasium.com/sakren/node-html-toggle.png)](https://gemnasium.com/sakren/node-html-toggle)
+[![Build Status](https://travis-ci.org/sakren/node-html-toggle.png?branch=master)](https://travis-ci.org/sakren/node-html-toggle)
+
+[![Donate](http://b.repl.ca/v1/donate-PayPal-brightgreen.png)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7UMMQ9FNVR8Z2)
+
 # html-toggle
 
 Simple toggling library for HTML, based on data attributes.
