@@ -33,7 +33,7 @@ or download standalone version:
 	});
 </script>
 
-<a href="#" data-toggle data-toggle=".languages">Show all languages</a>
+<a href="#" data-toggle data-toggle=".languages">Show or hide all languages</a>
 
 <ul class="languages">
 	...
