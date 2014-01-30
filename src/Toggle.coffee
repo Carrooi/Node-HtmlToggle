@@ -35,6 +35,6 @@ init = (jQuery, scope = 'body') ->
 	)
 
 if typeof module == 'object'
-	module.exports.init = init
+	module.exports = init
 else
 	window.Toggle = init
