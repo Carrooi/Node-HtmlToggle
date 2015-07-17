@@ -4,6 +4,12 @@
 
 [![Donate](https://img.shields.io/badge/donate-PayPal-brightgreen.svg?style=flat-square)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7UMMQ9FNVR8Z2)
 
+# html-toggle
+
+Simple toggling library for HTML, based on data attributes.
+
+Uses [jquery](https://github.com/jquery/jquery).
+
 ## Help
 
 Unfortunately I don't have any more time to maintain this repository :-( 
@@ -11,12 +17,6 @@ Unfortunately I don't have any more time to maintain this repository :-(
 Don't you want to save me and this project by taking over it?
 
 ![sad cat](https://raw.githubusercontent.com/sakren/sakren.github.io/master/images/sad-kitten.jpg)
-
-# html-toggle
-
-Simple toggling library for HTML, based on data attributes.
-
-Uses [jquery](https://github.com/jquery/jquery).
 
 ## Installation
 
