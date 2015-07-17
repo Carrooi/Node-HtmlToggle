@@ -1,8 +1,16 @@
-[![NPM version](https://badge.fury.io/js/html-toggle.png)](http://badge.fury.io/js/html-toggle)
-[![Dependency Status](https://gemnasium.com/sakren/node-html-toggle.png)](https://gemnasium.com/sakren/node-html-toggle)
-[![Build Status](https://travis-ci.org/sakren/node-html-toggle.png?branch=master)](https://travis-ci.org/sakren/node-html-toggle)
+[![NPM version](https://img.shields.io/npm/v/html-toggle.svg?style=flat-square)](http://badge.fury.io/js/html-toggle)
+[![Dependency Status](https://img.shields.io/gemnasium/Carrooi/Node-HtmlToggle.svg?style=flat-square)](https://gemnasium.com/Carrooi/Node-HtmlToggle)
+[![Build Status](https://img.shields.io/travis/Carrooi/Node-HtmlToggle.svg?style=flat-square)](https://travis-ci.org/Carrooi/Node-HtmlToggle)
 
-[![Donate](http://b.repl.ca/v1/donate-PayPal-brightgreen.png)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7UMMQ9FNVR8Z2)
+[![Donate](https://img.shields.io/badge/donate-PayPal-brightgreen.svg?style=flat-square)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7UMMQ9FNVR8Z2)
+
+## Help
+
+Unfortunately I don't have any more time to maintain this repository :-( 
+
+Don't you want to save me and this project by taking over it?
+
+![sad cat](https://raw.githubusercontent.com/sakren/sakren.github.io/master/images/sad-kitten.jpg)
 
 # html-toggle
 
@@ -63,6 +71,10 @@ $ npm test
 ```
 
 ## Changelog
+
+* 1.0.1
+	+ Move under Carrooi organization
+	+ Abandon package
 
 * 1.0.0
 	+ Initial version
